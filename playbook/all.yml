@@ -1,0 +1,7 @@
+# file: all.yml
+
+- hosts: all
+  become: yes
+  gather_facts: false
+  roles:
+    - goss
