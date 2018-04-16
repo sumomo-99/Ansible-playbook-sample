@@ -1,0 +1,9 @@
+# file: roles/restart_httpd/tasks/main.yml
+
+# Apache httpd
+- name: "restart apache httpd"
+  systemd:
+    name: "httpd"
+    state: "restarted"
+  tags: "httpd-restart"
+
