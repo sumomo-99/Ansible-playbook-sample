@@ -10,5 +10,6 @@ AnsibleのPlaybookサンプル集です。
 #### restart_httpd
 Apache(httpd)の再起動を行います。バッチジョブの代わりに利用することを想定しています。  
 **usage:**
-
-```$ ansible-playbook -i local-test all.yam -t httpd-restart```
+```console
+$ ansible-playbook -i local-test all.yam -t httpd-restart
+```
